@@ -1,0 +1,79 @@
+/*Hunter Mitchelson
+  Front Page css
+  Used https://www.youtube.com/watch?v=dK-8SrnklOI to help with learning BootStrap navbar
+*/
+
+/*I have marked below the css code needed for every branching page to keep our NavBar consistant*/
+/*The NavBar should always stay the same across every page, just the contents under it will change depending on the page*/
+/*----------------------------------------------------------------------------*/
+
+/*My container for the NavBar from Bootstrap*/
+.mynav{
+  min-height: 8%;
+  background: black;
+}
+
+/*This is for the logo's picture*/
+.mynav img{
+    width: 100px;
+}
+
+/*Color of the text for the links in the NavBar*/
+.nav-link{
+    color: #fff;
+}
+
+/*Color of text for the links in NavBar when mouse is on them */
+.nav-link:hover{
+    color: #50D151;
+}
+
+/*Supposed to be the color of the active link being pressed, don't think this function works though. */
+.active{
+    color: #50D151;
+}
+/*END OF REQUIRED CSS CODE FOR NAVBAR*/
+/*------------------------------------------------------------------------------*/
+
+/*For the picture in the background, doesn't include the NavBar though*/
+body{
+  background-image: url(../images/pizza2.jpg);
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+
+/*Banner is where I have put my image under the NavBar*/
+.banner{
+    min-height:77%;
+    color: #555;
+}
+
+/*This just edits the image*/
+.banner img{
+    width: 100%
+    padding: 15px 25px;
+    margin: 25% auto;
+    height: auto;
+}
+
+/*Deals with the text beside the image under the NavBar*/
+.info{
+    margin: 24% auto;
+    color: #fff;
+}
+
+/*Edit the text under the NavBar*/
+.info h1{
+    font-size: 30px;
+}
+
+/*Edit the 2 buttons under NavBar*/
+.info a{
+    width: 135px;
+    color: #fff;
+    padding: 15px 25px;
+    background: #50D151;
+    margin: 5% 10px;
+    display: inline-block;
+}
